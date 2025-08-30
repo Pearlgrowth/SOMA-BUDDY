@@ -129,6 +129,7 @@
   /* Enhanced word highlighting classes for better visual feedback */
   .word-highlight-success {
     @apply bg-chart-3/20 text-chart-3 rounded-md px-1.5 py-0.5 font-medium transition-all duration-300;
+<<<<<<< HEAD
   }
 
   .word-highlight-error {
@@ -166,3 +167,42 @@
     @apply bg-gradient-to-r from-primary to-chart-3 transition-all duration-500 ease-out;
   }
 }
+=======
+  }
+
+  .word-highlight-error {
+    @apply bg-destructive/20 text-destructive rounded-md px-1.5 py-0.5 font-medium transition-all duration-300 animate-pulse;
+  }
+
+  .word-highlight-current {
+    @apply bg-primary/20 text-primary rounded-md px-1.5 py-0.5 font-medium ring-2 ring-primary/40 transition-all duration-300 animate-pulse;
+  }
+
+  .reading-text {
+    @apply text-lg leading-relaxed tracking-wide font-sans;
+  }
+
+  .reading-text-large {
+    @apply text-2xl leading-relaxed tracking-wide font-sans;
+  }
+
+  /* Added child-friendly button animations */
+  .btn-bounce {
+    @apply transition-transform duration-200 hover:scale-105 active:scale-95;
+  }
+
+  /* Added accessibility focus styles */
+  .focus-visible-enhanced {
+    @apply focus-visible:ring-4 focus-visible:ring-primary/30 focus-visible:outline-none;
+  }
+
+  /* Added gamification elements */
+  .achievement-glow {
+    @apply animate-pulse bg-gradient-to-r from-chart-3/20 to-chart-4/20 border-chart-3/30;
+  }
+
+  .progress-bar {
+    @apply bg-gradient-to-r from-primary to-chart-3 transition-all duration-500 ease-out;
+  }
+}
+>>>>>>> 5dd1dbf06798123873cf7917575f658f6306c95b

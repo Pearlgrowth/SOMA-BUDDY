@@ -251,4 +251,8 @@ export default function ReadingAssistant() {
       <p>User Score: {userScore}</p>
     </div>
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5dd1dbf06798123873cf7917575f658f6306c95b
