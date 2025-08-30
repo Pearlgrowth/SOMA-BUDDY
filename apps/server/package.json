@@ -1,9 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "SomaBuddy Express server",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "node index.js",
+    "build": "echo 'No build step required'",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,6 +15,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.12.4",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "@repo/utils": "workspace:*"
   }
 }
