@@ -1,0 +1,23 @@
+{
+  "name": "turbo-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.4",
+  "devDependencies": {
+    "turbo": "^2.5.6"
+  },
+  "build": "turbo run build",
+"lint": "turbo run lint",
+"test": "turbo run test",
+"start": "concurrently \"pnpm --filter @apps/server start\" \"pnpm --filter @apps/client dev\"",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
